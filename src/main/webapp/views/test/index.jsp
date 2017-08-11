@@ -17,10 +17,11 @@
 			type:'post',
 			url : 'server/test/getOrder',
 			data : {
-				'id' : 4
+				'id' : 9
 			},
 			success :function(result){
 				console.log(result)
+				document.write(result)
 			},
 			error : function(){
 				
@@ -29,7 +30,7 @@
 	</script>
 </head>
 <body>
-Hello World
+Hello World111
 
 </body>
 </html>

@@ -1,7 +1,9 @@
-<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../config/ehcache.xsd">
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+	
 	<diskStore path="D:\\abc"/>
 	
-	<cache 
+<!-- 	<cache 
 		name = "cn.hibernate.hql.day01.Department.emps"
 		maxElementsInMemory="1"
         eternal="false"
@@ -12,7 +14,7 @@
         diskPersistent="false"
         diskExpiryThreadIntervalSeconds="120"
         memoryStoreEvictionPolicy="LRU"
-	/>
+	/> -->
 	
 	
 	<defaultCache
